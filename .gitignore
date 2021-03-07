@@ -6,6 +6,9 @@
 *.fig
 sass/
 style-guide.md
+.vscode/
+README.md
+design/
 
 # Avoid accidental XD upload if you convert the design file
 ###############################################
