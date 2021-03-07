@@ -5,16 +5,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
   <title>Frontend Mentor | Profile card component</title>
 </head>
 <body>
-  <section>
-    <div></div>
+  
+  <section id="wrapper">
+    <div class="circulos">
+      <div class="circulos__circuloTop">
+        <img src="./images/bg-pattern-top.svg" alt="">
+      </div>
+      <div class="circulos__circuloBot">
+        <img src="./images/bg-pattern-bottom.svg" alt="">
+      </div>
+  </div>
+    <div class="cardContainer">
+          <div class="cardContainer__profile">
+            <div class="cardContainer__profile__img">
+              <img src="images/image-victor.jpg" alt="">
+            </div>              
+            <div class="cardContainer__profile__details">
+              <h2>Victor Crest <span>26</span></h2>             
+              <span>London</span>
+            </div>
+          </div>
+          <div class="cardContainer__description">
+            <div class="cardContainer__description__followers">
+              <h6>80K</h6>
+              <span>Followers</span>
+            </div>
+            <div class="cardContainer__description__likes">
+              <h6>803K</h6>
+              <span>Likes</span>
+            </div>
+            <div class="cardContainer__description__photos">
+              <h6>1.4k</h6>
+              <span>Photos</span>
+            </div>
+          </div>
+    </div>
   </section>
 
 
-  Victor Crest
+<!--   Victor Crest
   26
   London
 
@@ -29,6 +65,6 @@
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </div> -->
 </body>
 </html>
